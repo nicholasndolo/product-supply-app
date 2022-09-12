@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/product-supply-app/static/css/main.4b2daadf.css",
+    "main.js": "/product-supply-app/static/js/main.6768672f.js",
+    "index.html": "/product-supply-app/index.html",
+    "main.4b2daadf.css.map": "/product-supply-app/static/css/main.4b2daadf.css.map",
+    "main.6768672f.js.map": "/product-supply-app/static/js/main.6768672f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b2daadf.css",
+    "static/js/main.6768672f.js"
+  ]
+}

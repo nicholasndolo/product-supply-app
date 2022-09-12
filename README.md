@@ -21,7 +21,7 @@
 
 As an admin of the application,you will be able to :
 
-1. List all products and they buy the business buy from suppliers
+1. List all products the business buys suppliers
 
 2. Update prices to reflect the company's ask price for particular products
 
@@ -36,6 +36,7 @@ As an admin of the application,you will be able to :
 
 ### Technology Used
 * HTML- was used to develope the structure of the pages.
+ * The app uses Sinatra API backend that uses Active Record to access the database.
 
 * CSS- was used to style the User Interface.
 *React JS was used to code the component strutures of the application
@@ -71,4 +72,4 @@ Email-[Nicholas Ndolo]
 
 ## Live Link
 
-- Click this link to view the live application https://pacific-coast-19269.herokuapp.com/Cars/
+- Click this link to view the live application http://localhost:9292/products

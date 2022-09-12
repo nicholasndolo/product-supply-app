@@ -27,16 +27,16 @@ function App() {
       setProductList([...productList, newProduct]);
     }
 
-    function handleProductUpdate(updatedProduct){
-      const updatedProductList = productList.map((product) => {
-        if(product.id === updatedProduct.id){
-          return updatedProduct
-        }else{
-          return product
-        }
-      });
-      setProductList(updatedProductList);
-    }
+    // function handleProductUpdate(updatedProduct){
+    //   const updatedProductList = productList.map((product) => {
+    //     if(product.id === updatedProduct.id){
+    //       return updatedProduct
+    //     }else{
+    //       return product
+    //     }
+    //   });
+    //   setProductList(updatedProductList);
+    // }
   return (
     <div className="App">
       <Router>

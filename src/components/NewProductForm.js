@@ -8,9 +8,9 @@ function NewProductForm({onAddNewProduct}){
         price: "",
     })
 
-    function handleChange(e) {
-        setNewProduct({...newProduct,[e.target.name]: e.target.value})
-    }
+    // function handleChange(e) {
+    //     setNewProduct({...newProduct,[e.target.name]: e.target.value})
+    // }
 
     function handleSubmit(e){
         e.preventDefault()

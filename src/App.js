@@ -27,31 +27,30 @@ function App() {
       setProductList([...productList, newProduct]);
     }
 
-    function handleProductUpdate(updatedProduct){
-      const updatedProductList = productList.map((product) => {
-        if(product.id === updatedProduct.id){
-          return updatedProduct
-        }else{
-          return product
-        }
-      });
-      setProductList(updatedProductList);
-    }
+//     function handleProductUpdate(updatedProduct){
+//       const updatedProductList = productList.map((product) => {
+//         if(product.id === updatedProduct.id){
+//           return updatedProduct
+//         }else{
+//           return product
+//         }
+//       });
+//       setProductList(updatedProductList);
+//     }
+//   return (
+//     <div className="App">
+//       <Router>
+//         <div>
+//           <NavBar/>
+//         </div>
+//         <Routes>
+//           <Route exact path="/" element={<Home productList={productList} setProductList={setProductList} onAddNewProduct={handleAddNewProduct}/>}></Route>
+//           <Route exact path="/products/:productId" element={<ProductDetails  onUpdateProduct={handleProductUpdate}/>}></Route>
+//           <Route exact path="/products/:productId/: orderId" element={<ProductDetails  onUpdateProduct={handleProductUpdate}/>}></Route>
+//         </Routes>
+//       </Router>
+//     </div>
+//   );
+// }
 
-  return (
-    <div className="App">
-      <Router>
-        <div>
-          <NavBar/>
-        </div>
-        <Routes>
-          <Route exact path="/" element={<Home productList={productList} setProductList={setProductList} onAddNewProduct={handleAddNewProduct}/>}></Route>
-          <Route exact path="/products/:productId" element={<ProductDetails  onUpdateProduct={handleProductUpdate}/>}></Route>
-          <Route exact path="/products/:productId/: orderId" element={<ProductDetails  onUpdateProduct={handleProductUpdate}/>}></Route>
-        </Routes>
-      </Router>
-    </div>
-  );
-}
-
-export default App;
+// export default App;

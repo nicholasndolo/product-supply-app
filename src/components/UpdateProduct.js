@@ -1,18 +1,18 @@
 import React, {useState} from 'react'; 
 import {useParams} from 'react-router-dom'
 
-// function UpdateProduct({onUpdateProduct}){
+function UpdateProduct({onUpdateProduct}){
 
-//     const [updatedPrice, setUpdatedPrice] = useState({
-//         price: "",  
-//     })
+    const [updatedPrice, setUpdatedPrice] = useState({
+        price: "",  
+    })
 
-//     let {productId} = useParams()
+    let {productId} = useParams()
 
-//     function handleChange(e){
-//         setUpdatedPrice({...updatedPrice, [e.target.name]: e.target.value})
+    function handleChange(e){
+        setUpdatedPrice({...updatedPrice, [e.target.name]: e.target.value})
 
-//     }
+    }
 
 //     function handleSubmit(e){
 //         e.preventDefault();

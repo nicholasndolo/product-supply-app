@@ -25,24 +25,24 @@ function ProductDetails({onUpdateProduct}){
 
 
  
-//     return (
-//         <div className="container">
-//             <UpdateProduct onUpdateProduct={onUpdateProduct} />
-//             <center>
-//                 <h3 >{name}</h3>
-//                 <img src={image} style ={{height: 300 + "px", width: 500 + "px"}}/>
-//                 <h4>Price ksh.{price}</h4>
-//             </center>
-//             <div>
-//             <center>
-//             <Link to={"/products/" + productId} className="btn btn-primary">
-//             Place Order
-//           </Link>
-//           </center>
-//             </div>
-//         </div>
-//     )
-// }
+    return (
+        <div className="container">
+            <UpdateProduct onUpdateProduct={onUpdateProduct} />
+            <center>
+                <h3 >{name}</h3>
+                <img src={image} style ={{height: 300 + "px", width: 500 + "px"}}/>
+                <h4>Price ksh.{price}</h4>
+            </center>
+            <div>
+            <center>
+            <Link to={"/products/" + productId} className="btn btn-primary">
+            Place Order
+          </Link>
+          </center>
+            </div>
+        </div>
+    )
+}
 
-// export default ProductDetails;
+export default ProductDetails;
 

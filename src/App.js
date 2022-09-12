@@ -7,7 +7,6 @@ import ProductDetails from './components/ProductDetails';
 
 function App() {
   const [productList, setProductList] = useState([])
-  const[orderList, setOrderList] = useState([])
 
     useEffect(()=> {
         fetch("http://localhost:9292/products")
@@ -39,7 +38,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home productList={productList} setProductList={setProductList} onAddNewProduct={handleAddNewProduct}/>}></Route>
           <Route exact path="/products/:productId" element={<ProductDetails  onUpdateProduct={handleProductUpdate}/>}></Route>
-          <Route exact path="/products/:productId/: orderId" element={<ProductDetails  onUpdateProduct={handleProductUpdate}/>}></Route>
+          {/* <Route exact path="/products/:productId/: orderId" element={<ProductDetails  onUpdateProduct={handleProductUpdate}/>}></Route> */}
         </Routes>
       </Router>
     </div>

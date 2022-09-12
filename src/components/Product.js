@@ -1,20 +1,20 @@
-// import React from "react";
-// import { Link } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 
-// function Product({productId, productImage, productName, productPrice,productList,setProductList}) {
+function Product({productId, productImage, productName, productPrice,productList,setProductList}) {
   
 
     
-//     function handleDelete(){
-//       fetch(`http://localhost:9292/products/${productId}`,{
-//         method: "DELETE"
-//       })
-//       .then((res) => res.json())
-//       .then(()=>{
-//       setProductList(productList.filter(item => item.id !== productId))
+    function handleDelete(){
+      fetch(`http://localhost:9292/products/${productId}`,{
+        method: "DELETE"
+      })
+      .then((res) => res.json())
+      .then(()=>{
+      setProductList(productList.filter(item => item.id !== productId))
       
-//       })
-//     }
+      })
+    }
 //   return (
 //     <div className="col">
 //       <div className="card h-90" style={{ width: 18 + "rem" }}>

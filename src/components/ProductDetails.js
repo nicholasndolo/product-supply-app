@@ -3,25 +3,25 @@ import {useParams} from 'react-router-dom'
 import UpdateProduct from './UpdateProduct';
 import { Link } from "react-router-dom";
 
-// function ProductDetails({onUpdateProduct}){
-//     const [image, setImage] = useState("")
-//     const [name, setName] = useState("")
-//     const [price, setPrice] = useState("")
+function ProductDetails({onUpdateProduct}){
+    const [image, setImage] = useState("")
+    const [name, setName] = useState("")
+    const [price, setPrice] = useState("")
 
-//     let {productId} = useParams()
+    let {productId} = useParams()
 
-//     useEffect(()=> {
-//         fetch(`http://localhost:9292/products/${productId}`)
-//         .then((res) => res.json())
-//         .then((product) => {
+    useEffect(()=> {
+        fetch(`http://localhost:9292/products/${productId}`)
+        .then((res) => res.json())
+        .then((product) => {
 
-//             setName(product.name);
-//             setPrice(product.unit_price);
-//             setImage(product.image_url); 
+            setName(product.name);
+            setPrice(product.unit_price);
+            setImage(product.image_url); 
               
 
-//         }) 
-//     }, [])
+        }) 
+    }, [])
 
 
  

@@ -72,4 +72,4 @@ Email-[Nicholas Ndolo]
 
 ## Live Link
 
-- Click this link to view the live application http://localhost:9292/products
+- Click this link to view the live application https://nicholasndolo.github.io/product-supply-app

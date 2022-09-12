@@ -15,13 +15,6 @@ function App() {
         .then((products) => setProductList(products)) 
 
     }, [])
-
-    useEffect(()=> {
-      fetch("http://localhost:9292/products/orders")
-      .then((res) => res.json())
-      .then((orders) => setOrderList(orders)) 
-
-  }, [])
     
     function handleAddNewProduct(newProduct){
       setProductList([...productList, newProduct]);

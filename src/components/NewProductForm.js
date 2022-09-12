@@ -1,12 +1,12 @@
-// import React,{useState} from 'react';
+import React,{useState} from 'react';
 
-// function NewProductForm({onAddNewProduct}){
-//     const [newProduct, setNewProduct] = useState({
-//         name: "",
-//         image: "",
-//         producer: "",
-//         price: "",
-//     })
+function NewProductForm({onAddNewProduct}){
+    const [newProduct, setNewProduct] = useState({
+        name: "",
+        image: "",
+        producer: "",
+        price: "",
+    })
 
 //     function handleChange(e) {
 //         setNewProduct({...newProduct,[e.target.name]: e.target.value})

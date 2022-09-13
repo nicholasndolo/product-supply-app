@@ -10,6 +10,7 @@
 -[Licence](#licence)
 -[Author Info](#Authors-Info)
 -[Live Link](#Live-Link)
+-[GitHub Repository for the Sinatra API](#GitHub-Repository-for-the-Sinatra-API)
 
 ## Description
 
@@ -36,7 +37,7 @@ As an admin of the application,you will be able to :
 
 ### Technology Used
 * HTML- was used to develope the structure of the pages.
- * The app uses Sinatra API backend that uses Active Record to access the database.
+ 
 
 * CSS- was used to style the User Interface.
 *React JS was used to code the component strutures of the application
@@ -73,3 +74,7 @@ Email-[Nicholas Ndolo]
 ## Live Link
 
 - Click this link to view the live application https://nicholasndolo.github.io/product-supply-app
+
+## GitHub Repository for the Sinatra API
+
+-* The app uses Sinatra API backend that uses Active Record to access the database.Click this github repository link to view the code https://github.com/nicholasndolo/phase-3-sinatra-react-project

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ProductDetails from "./ProductDetails";
 
 function Product({productId, productImage, productName, productPrice,productList,setProductList}) {
   
@@ -15,6 +16,7 @@ function Product({productId, productImage, productName, productPrice,productList
       
       })
     }
+
   return (
     <div className="col">
       <div className="card h-90" style={{ width: 18 + "rem" }}>
